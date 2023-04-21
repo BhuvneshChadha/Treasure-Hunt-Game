@@ -1,0 +1,26 @@
+.puzzle-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+ h4{
+  text-align: center;
+ }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: rgb(135, 197, 235);
+  }
+  
